@@ -1,0 +1,7 @@
+.ListaTarefas {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}

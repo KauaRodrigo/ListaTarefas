@@ -1,0 +1,11 @@
+.Tarefa {
+    width: 100%;
+    background-color: white;
+    color: black;
+    font-size: 20px;
+    display: flex;
+    padding: 1%;
+    text-align: left;
+    border-radius: 8px;
+    gap: 20px;
+}

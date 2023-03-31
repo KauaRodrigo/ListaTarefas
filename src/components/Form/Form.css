@@ -1,0 +1,43 @@
+.Form {
+    width: 50%;
+    background-color: #FFF;    
+    display: flex;    
+    padding: 2%;  
+    gap: 20px;     
+    flex-direction: column;    
+    text-align: left;
+    color: black;
+    font-size: 24px;    
+    border: 2px solid black;
+    border-radius: 20px;
+    margin-bottom: 2%;
+}
+
+.Form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-family: monospace;
+}
+
+.Form input, .Form textarea {
+    padding: 1%;
+    color: black;
+    font-weight: 600;
+    border: none;
+    resize: none;    
+    box-shadow: 8px 8px 20px #000;
+    width: 30%;
+}
+
+.Form button {
+    max-width: 15%;    
+    background-color: rgba(0, 0, 0, 0.7);
+    border: 1px solid black;
+    color: white;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 2% 1%;    
+    cursor: pointer;
+}

@@ -1,0 +1,21 @@
+.Banner {
+    width: 100%;    
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border-bottom: 4px solid black;
+    text-shadow: 5px 5px 20px #FFF;
+    background-color: rgba(0,0,0, 0.7);
+    margin-bottom: 20px;
+}
+
+.Banner p, .Banner h1 {
+    margin: 20px;
+    padding: 0.8%;
+    background-color: black;
+}
+
+.Banner code {
+    font-size: 28px;
+    font-weight: 600;
+}
